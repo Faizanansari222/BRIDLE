@@ -11,7 +11,7 @@ function Feature() {
         </h1>
         <div className="flex flex-row  justify-center">
           <div className=" flex flex-row overflow-y-auto scrollbar-thin  gap-3 py-4">
-            {data.featuredEvent.map((item: any) => {
+            {data.featuredEvent.map((item) => {
               return (
                 <>
                   <div className=" flex items-center ">
